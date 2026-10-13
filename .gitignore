@@ -1,0 +1,73 @@
+# Individual clinical records and all executed analysis artifacts stay local
+data/private/
+results/private/
+**/private/
+
+# Only documented dictionaries and aggregate result tables are public
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.feather
+*.h5
+*.hdf5
+!data/data_dictionary.csv
+!data/archive/data_dictionary_v1.csv
+!results/tables/*.csv
+
+# Only the selected aggregate figures enter Git
+*.png
+*.svg
+*.jpg
+*.jpeg
+*.eps
+!results/figures/*.png
+!results/figures/*.svg
+
+# Report documents and their extracted text are not published here
+*.pdf
+*.docx
+*.doc
+*.rtf
+*.odt
+*.txt
+!requirements.txt
+
+# Models, arrays and local databases
+*.joblib
+*.pkl
+*.pickle
+*.npz
+*.npy
+*.sqlite
+*.sqlite3
+*.db
+
+# Python, Jupyter and development environments
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.cache/
+.matplotlib/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Credentials and machine-specific files
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

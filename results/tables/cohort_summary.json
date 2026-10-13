@@ -1,0 +1,11 @@
+{
+  "patients": 257,
+  "cardiotoxicity_events": 133,
+  "cardiotoxicity_percent": 51.8,
+  "censored_without_competing_death": 123,
+  "competing_deaths_without_cardiotoxicity": 1,
+  "median_observed_time_days": 350.0,
+  "min_observed_time_days": 1.0,
+  "max_observed_time_days": 3297.0,
+  "source": "Descriptive aggregation of the supplied prepared v4 CSV; models were not refitted."
+}

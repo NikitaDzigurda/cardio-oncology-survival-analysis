@@ -1,0 +1,16 @@
+{
+  "source": "Saved outputs of the original survival notebook; not a new execution.",
+  "kaplan_meier_median_event_free_days": 600,
+  "event_free_survival": {
+    "180": 0.776,
+    "365": 0.642,
+    "730": 0.432
+  },
+  "cox_multivariable": {
+    "n_complete_cases": 245,
+    "events": 129,
+    "predictors": 6,
+    "apparent_c_index": 0.658
+  },
+  "competing_risks_method": "Aalen-Johansen CIF; no genuine Fine-Gray regression was fitted by the original code."
+}

@@ -1,0 +1,7 @@
+{
+  "project": "cardio-oncology-survival-analysis",
+  "main_endpoint": "event_cardiotox",
+  "time": "time_days",
+  "prepared_cohort": "data/private/processed/cohort.csv",
+  "default_run": "results/private/runs/current"
+}
